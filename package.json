@@ -4,9 +4,9 @@
   "private": true,
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "npm run eslint && npm run flow",
     "eslint": "node node_modules/eslint/bin/eslint.js src",
-    "flow": "./node_modules/.bin/flow",
-    "test": "npm run eslint && npm run flow"
+    "flow": "./node_modules/.bin/flow"
   },
   "dependencies": {
     "react": "~15.4.1",
