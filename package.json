@@ -1,0 +1,25 @@
+{
+  "name": "eslintTest",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "eslint": "node node_modules/eslint/bin/eslint.js src",
+    "flow": "./node_modules/.bin/flow"
+  },
+  "dependencies": {
+    "react": "~15.4.1",
+    "react-native": "0.39.2"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.8.1",
+    "flow-bin": "^0.35.0",
+    "eslint-config-airbnb": "^10.0.1",
+    "eslint-plugin-flowtype": "^2.20.0",
+    "eslint-plugin-import": "^1.13.0",
+    "eslint-plugin-jsx-a11y": "^2.1.0",
+    "eslint-plugin-react": "^6.4.1",
+    "eslint-plugin-react-native": "^2.0.0"
+  }
+}
