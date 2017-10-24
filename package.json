@@ -5,11 +5,16 @@
   "scripts": {
     "start": "node node_modules/react-native/local-cli/cli.js start",
     "eslint": "node node_modules/eslint/bin/eslint.js src",
-    "flow": "./node_modules/.bin/flow"
+    "flow": "./node_modules/.bin/flow",
+    "test": "npm run eslint && npm run flow"
   },
   "dependencies": {
     "react": "~15.4.1",
-    "react-native": "0.39.2"
+    "react-native": "0.39.2",
+    "react-redux": "^4.4.5",
+    "redux": "^3.5.2",
+    "redux-persist": "^3.5.0",
+    "redux-logger": "^2.6.1"
   },
   "devDependencies": {
     "babel-eslint": "^7.1.1",
