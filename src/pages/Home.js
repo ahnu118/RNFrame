@@ -4,7 +4,7 @@ import React, { Component } from 'react'
 import {
     View,
     Text,
-    Image
+    Image,
 } from 'react-native'
 
 type Props ={
